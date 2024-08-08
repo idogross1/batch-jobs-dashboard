@@ -1,0 +1,167 @@
+[
+    {
+        "id": "123",
+        "group": "devops",
+        "user": "Ariel Weissman",
+        "status": "Running",
+        "dateSubmitted": "20/06/2024",
+        "cliCommand": "python /home/user/train.py",
+        "logs": [
+            "Training started...",
+            "Epoch 1: loss=0.67, accuracy=75%",
+            "Epoch 2: loss=0.45, accuracy=82%"
+        ]
+    },
+    {
+        "id": "456",
+        "group": "devops",
+        "user": "Amir Buxbaum",
+        "status": "Pending",
+        "dateSubmitted": "19/04/2024",
+        "cliCommand": "python /home/user/process_data.py",
+        "logs": [
+            "Data processing queued..."
+        ]
+    },
+    {
+        "id": "789",
+        "group": "development",
+        "dateSubmitted": "01/07/2024",
+        "dateCompleted": "01/07/2024",
+        "user": "Lital Nasri",
+        "status": "Failed",
+        "cliCommand": "python /home/user/analyze.py",
+        "logs": [
+            "Analysis started...",
+            "Error: Unable to load data source"
+        ]
+    },
+    {
+        "id": "012",
+        "dateSubmitted": "04/08/2024",
+        "dateCompleted": "04/08/2024",
+        "group": "development",
+        "user": "Shay Abu",
+        "status": "Succeeded",
+        "cliCommand": "python /home/user/deploy.py",
+        "logs": [
+            "Deployment started...",
+            "Deployment completed successfully"
+        ]
+    },
+    {
+        "id": "345",
+        "group": "cloud",
+        "dateSubmitted": "05/08/2024",
+        "dateCompleted": "06/08/2024",
+        "user": "Ron Zehavi",
+        "status": "Terminated",
+        "cliCommand": "python /home/user/backup.py",
+        "logs": [
+            "Backup started...",
+            "Process terminated by user"
+        ]
+    },
+    {
+        "id": "678",
+        "group": "data-science",
+        "user": "Nina Cohen",
+        "status": "Running",
+        "dateSubmitted": "15/07/2024",
+        "cliCommand": "python /home/user/train_model.py",
+        "logs": [
+            "Model training initiated...",
+            "Epoch 1: loss=0.60, accuracy=77%",
+            "Epoch 2: loss=0.38, accuracy=85%"
+        ]
+    },
+    {
+        "id": "901",
+        "group": "data-science",
+        "user": "Dani Levy",
+        "status": "Pending",
+        "dateSubmitted": "18/07/2024",
+        "cliCommand": "python /home/user/preprocess_data.py",
+        "logs": [
+            "Data preprocessing is queued..."
+        ]
+    },
+    {
+        "id": "234",
+        "group": "qa",
+        "user": "Oren Katz",
+        "status": "Running",
+        "dateSubmitted": "10/08/2024",
+        "cliCommand": "python /home/user/run_tests.py",
+        "logs": [
+            "Test suite execution started...",
+            "Test 1: passed",
+            "Test 2: passed",
+            "Test 3: failed"
+        ]
+    },
+    {
+        "id": "567",
+        "group": "qa",
+        "user": "Maya Schwartz",
+        "status": "Failed",
+        "dateSubmitted": "12/08/2024",
+        "dateCompleted": "12/08/2024",
+        "cliCommand": "python /home/user/validate_build.py",
+        "logs": [
+            "Build validation started...",
+            "Error: Build artifacts not found"
+        ]
+    },
+    {
+        "id": "890",
+        "group": "security",
+        "user": "Tomer Ben-David",
+        "status": "Succeeded",
+        "dateSubmitted": "13/08/2024",
+        "dateCompleted": "14/08/2024",
+        "cliCommand": "python /home/user/scan_network.py",
+        "logs": [
+            "Network scan initiated...",
+            "Scan completed: No threats found"
+        ]
+    },
+    {
+        "id": "112",
+        "group": "security",
+        "user": "Yael Shahar",
+        "status": "Terminated",
+        "dateSubmitted": "14/08/2024",
+        "dateCompleted": "16/08/2024",
+        "cliCommand": "python /home/user/secure_backup.py",
+        "logs": [
+            "Backup process started...",
+            "Process terminated by system admin"
+        ]
+    },
+    {
+        "id": "334",
+        "group": "infra",
+        "user": "Gilad Peretz",
+        "status": "Pending",
+        "dateSubmitted": "16/08/2024",
+        "cliCommand": "python /home/user/setup_env.py",
+        "logs": [
+            "Environment setup queued..."
+        ]
+    },
+    {
+        "id": "556",
+        "group": "infra",
+        "user": "Talia Avni",
+        "status": "Running",
+        "dateSubmitted": "17/08/2024",
+        "cliCommand": "python /home/user/install_dependencies.py",
+        "logs": [
+            "Dependency installation started...",
+            "Installing package: numpy",
+            "Installing package: pandas",
+            "Installing package: tensorflow"
+        ]
+    }
+]

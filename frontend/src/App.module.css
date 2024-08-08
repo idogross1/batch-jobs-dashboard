@@ -1,0 +1,10 @@
+header {
+    /* height: 50px; */
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+header img {
+    height: 50px;
+}

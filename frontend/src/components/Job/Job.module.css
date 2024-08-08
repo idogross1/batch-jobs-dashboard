@@ -1,0 +1,43 @@
+.job {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-left: 5px solid #146FF8;
+}
+
+.job li {
+    display: flex;
+}
+
+.job:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+
+}
+
+.job:first-child {
+    border-top-left-radius: 8px;
+}
+
+.job:last-child {
+    border-bottom-left-radius: 8px;
+}
+
+.job span.jobStatus {
+    flex: 1;
+    text-align: center;
+}
+
+.job span {
+    flex: 2;
+    text-align: left;
+}
+
+
+.jobHeader {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
