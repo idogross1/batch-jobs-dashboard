@@ -22,7 +22,7 @@ This project is fully Dockerized, allowing you to run both the frontend and back
 Clone this repository to your local machine using the following command:
 
 ```
-https://github.com/idogross1/jobs-list-dashboard.git
+git clone https://github.com/idogross1/batch-jobs-dashboard.git
 cd jobs-list-dashboard
 ```
 
